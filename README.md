@@ -1,7 +1,6 @@
-This is AngularJS
+ANGULARJS FELLOWS
 ===============
 
-[Visit here - This is AngularJS](http://tachun.github.io/this-is-angular/)
 
-Hello,
-This is a collection of resources for AngularJS, All contributions welcome!
+[ANGULARJS FELLOWS](http://tachun.github.io/angularjs-fellows/)
+A collection of free resources for learning AngularJS, welcomed all contributions!!
