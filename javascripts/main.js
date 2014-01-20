@@ -4,6 +4,6 @@ var w = window,
     g = d.getElementsByTagName('body')[0],
     width = w.innerWidth || e.clientWidth || g.clientWidth,
     height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-    height = height - 200;
+    height = height - 100;
 
-document.getElementById("header").style.height = height+ "px";
+// document.getElementById("header").style.height = height+ "px";

@@ -172,7 +172,7 @@ ul, ol, dl {
 }
 
 .header{
-  height: 550px;
+  height: 600px;
   background-color: #fffffa;
   box-sizing: border-box;
   padding: 20px;
@@ -189,6 +189,15 @@ ul, ol, dl {
 
 .header a:hover {
   opacity: .6;
+}
+
+.github-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.github-btn iframe {
+  margin: 0 auto;
 }
 
 .fork-link {
