@@ -409,7 +409,6 @@ Media Queries - mobile first approach
     top: 0;
     left: 0;
     padding: 20px 10% 10px 10%;
-    padding-top: 0;
     width: 100%;
     height: auto;
     background: none;
@@ -443,5 +442,8 @@ Media Queries - mobile first approach
   .follows li {
     float: left;
     width: 47%;
+  }
+  .show-menu .overlay  {
+    opacity: 0;
   }
 }
