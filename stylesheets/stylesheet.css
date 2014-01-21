@@ -276,11 +276,11 @@ ul, ol, dl {
 }
 
 .left-list, .left-h3 {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .right-list, .right-h3 {
-  margin-left: 225px;
+  margin-left: 0;
 }
 
 .follows li {
