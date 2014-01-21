@@ -69,12 +69,13 @@ Theme Styles
 *******************************************************************************/
 
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
   color: #232323;
   font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,38 +85,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 3em;
-  /*font-size: 7.4vw;*/
   margin-top: 100px;
   margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 1;
 }
 
 h2 {
-  text-align: center;
-  font-size: 1.6em;
-  /*font-size: 3.2vw;*/
   color: #888888;
-  font-family: 'Open Sans', sans-serif;
+  text-align: center;
   font-weight: 300;
+  font-size: 1.6em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
-  font-size: 1.6em;
-  /*font-size: 2vw;*/
   text-transform: uppercase;
+  font-size: 1.6em;
 }
 
 h3.intro {
-  font-style: italic;
-  color: #888;
-  font-family: 'Droid Serif', serif;
-  font-weight: 400;
   margin: 75px auto;
-  max-width: 640px;
+  color: #888888;
   text-transform: none;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Droid Serif', serif;
 }
 
 h3.intro a {
@@ -135,7 +134,7 @@ h6 {
 }
 
 a {
-  color: #888;
+  color: #888888;
   text-decoration: none;
 }
 
@@ -144,9 +143,8 @@ a:hover {
 }
 
 p, li {
-  font-size: 1.2em;
-  /*font-size: 1.2vw;*/
   margin: 10px 0 15px 0;
+  font-size: 1em;
 }
 
 em {
@@ -167,90 +165,157 @@ p img {
 }
 
 ul, ol, dl {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .header{
-  background-color: #fffffa;
   box-sizing: border-box;
   padding: 20px;
+  background-color: #fffffa;
   box-shadow: 0 1px 5px rgba(0,0,0,.2);
-
 }
 
 .header a {
   -webkit-transition: opacity .1s ease-in-out;
-  -moz-transition: opacity .1s ease-in-out;
-  -ms-transition: opacity .1s ease-in-out;
-  -o-transition: opacity .1s ease-in-out;
-  transition: opacity .1s ease-in-out;
+  -moz-transition:    opacity .1s ease-in-out;
+  -ms-transition:     opacity .1s ease-in-out;
+  -o-transition:      opacity .1s ease-in-out;
+  transition:         opacity .1s ease-in-out;
 }
 
 .header a:hover {
   opacity: .6;
 }
 
+.navbar {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  background-color: #fffffa;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  height: 48px;
+}
+
+.burger-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  margin-top: 10px;
+  width: 40px;
+  height: 48px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.burger-menu span {
+  display: block;
+  margin: 4px 0;
+  height: 5px;
+  background-color: #232323;
+  font-size: 1px;
+}
+
+.burger-menu:before {
+  display: block;
+  height: 5px;
+  background-color: #232323;
+  content: '';
+  font-size: 1px;
+}
+
+.burger-menu:after {
+  display: block;
+  height: 5px;
+  background-color: #232323;
+  content: '';
+  font-size: 1px;
+}
+
+.show-menu .burger-menu span, .show-menu .burger-menu:before, .show-menu .burger-menu:after {
+  background-color: #ffffff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in;
+  -moz-transition:    opacity .3s ease-in;
+  -ms-transition:     opacity .3s ease-in;
+  -o-transition:      opacity .3s ease-in;
+  transition:         opacity .3s ease-in;
+}
+
+.show-menu .overlay {
+  opacity: 1;
+}
+
+.show-menu .main-nav {
+  left: 0;
+  box-shadow: 1px 0px 5px rgba(0,0,0,.2);
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 50;
+  box-sizing: border-box;
+  padding-top: 85px;
+  width: calc(100% - 80px);
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 1px 0px 5px rgba(0,0,0,1);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition:    all .3s ease-in-out;
+  -ms-transition:     all .3s ease-in-out;
+  -o-transition:      all .3s ease-in-out;
+  transition:         all .3s ease-in-out;
+}
+
+.main-nav li {
+  display: block;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  font-size: 1em;
+}
+
+.main-nav a {
+  display: block;
+  padding: 10px 0 10px 30px;
+  border-bottom: 1px solid #eee;
+  color: #888;
+  text-decoration: none;
+}
+
+.main-nav a:hover, .main-nav a.actived {
+  color: #f01e49;
+}
+
 .github-btn {
+  margin-top: 60px;
+  margin-bottom: 50px;
   text-align: center;
-  margin-top: 30px;
 }
 
 .github-btn iframe {
   margin: 0 auto;
-}
-
-.fork-link {
-  color: #000;
-  float: right;
-  text-decoration: none;
-}
-
-.fork-link span{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.github-mark {
-  width: 16px;
-  height: 16px;
-  background: url(../images/github-mark.png) center center no-repeat;
-}
-
-.main-nav {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  text-align: center;
-  margin: 0 auto 75px auto;
-  padding: 10px 0;
-  max-width: 640px;
-  box-sizing: border-box;
-}
-
-.main-nav li {
-  display: inline-block;
-  list-style: none;
-}
-
-.main-nav a {
-  font-size: 1.2em;
-  /*font-size: 1.6vw;*/
-  color: #232323;
-  text-decoration: none;
-}
-
-.main-nav a:hover {
-  color: #f01e49;
-}
-
-.main-nav li:after {
-  content: '/';
-  padding: 0 20px;
-}
-
-.main-nav li:last-child:after {
-  content: '';
-  padding-right: 0;
 }
 
 .list {
@@ -259,8 +324,8 @@ ul, ol, dl {
 
 .list li {
   box-sizing: border-box;
-  list-style-type: circle;
   margin-left: 20px;
+  list-style-type: circle;
   vertical-align: middle;
 }
 
@@ -271,21 +336,8 @@ ul, ol, dl {
 
 .list li img {
   width: 35px;
-  border-radius: 50%;
   border: 1px solid #ddd;
-}
-
-.left-list, .left-h3 {
-  margin-left: 0;
-}
-
-.right-list, .right-h3 {
-  margin-left: 0;
-}
-
-.follows li {
-  width: 47%;
-  float: left;
+  border-radius: 50%;
 }
 
 /*******************************************************************************
@@ -299,33 +351,31 @@ Full-Width Styles
 .inner {
   position: relative;
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 .footer {
-  text-align: center;
   box-shadow: 0 -1px 5px rgba(0,0,0,.2);
+  text-align: center;
 }
 
 .footer p{
-  font-size: .8em;
-  font-size: 1vw;
   display: inline-block;
+  font-size: .8em;
 }
 
 .twitter-share {
   display: inline-block;
-  vertical-align: middle;
-  padding-top: 5px;
   margin-left: 20px;
+  padding-top: 5px;
+  vertical-align: middle;
 }
 
 .fb-share {
   display: inline-block;
-  vertical-align: middle;
-  padding-top: 5px;
   margin-left: 20px;
+  padding-top: 5px;
+  vertical-align: middle;
 }
 
 
@@ -333,20 +383,59 @@ Full-Width Styles
 Media Queries - mobile first approach
 *******************************************************************************/
 
-@media screen and (min-width: 480px) {
-
-}
-
 @media screen and (min-width:768px) {
-    .header h1 {
-        font-size: 7em;
-        margin-top: 200px;
-    }
+  .header h1 {
+    margin-top: 250px;
+    font-size: 7em;
+  }
+  .header h2 {
+    font-size: 3em;
+  }
+  p, li {
+    font-size: 1.2em;
+  }
+  .inner {
+    max-width: 740px;
+  }
 
-    .header h2 {
-        font-size: 2.6em;
-    }
-
-
-    .right-list {}
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    width: 100%;
+    padding: 20px 10% 10px 10%;
+    height: auto;
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    background-color: #fffffa;
+  }
+  .main-nav li {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    list-style: none;
+    font-size: .9em;
+  }
+  .main-nav li:after {
+    padding: 0 5px;
+    content: '|';
+  }
+  .main-nav li:last-child:after {
+    padding-right: 0;
+    content: '';
+  }
+  .main-nav a {
+    display: inline-block;
+    border: none;
+    padding: 5px 0;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .follows li {
+    float: left;
+    width: 47%;
+  }
 }

@@ -1,9 +1,13 @@
-var w = window,
-    d = document,
-    e = d.documentElement,
-    g = d.getElementsByTagName('body')[0],
-    width = w.innerWidth || e.clientWidth || g.clientWidth,
-    height = w.innerHeight|| e.clientHeight|| g.clientHeight;
-    height = height - 100;
+$('.main-nav a').on('click', function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  $(this).addClass('actived').parent().siblings('li').find('a').removeClass('actived');
+  $('body').animate({
+    scrollTop: target.offset().top-120
+  }, 700).removeClass('show-menu');
+});
 
-// document.getElementById("header").style.height = height+ "px";
+$('.burger-menu').on('click', function(e){
+  e.preventDefault();
+  $('body').toggleClass('show-menu');
+});
