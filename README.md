@@ -1,10 +1,10 @@
 ANGULARJS FELLOWS
 ===============
 
+This is a collection of free resources for learning AngularJS, welcomed all contributions!!
+
 Website is here:
 [http://tachun.github.io/angularjs-fellows/](http://tachun.github.io/angularjs-fellows/)
-
-This is a collection of free resources for learning AngularJS, welcomed all contributions!!
 
 
 ##Getting Started
@@ -86,6 +86,8 @@ This is a collection of free resources for learning AngularJS, welcomed all cont
 * [Building Huuuuuge Apps with AngularJS](http://briantford.com/blog/huuuuuge-angular-apps.html)
 * [Modular AngularJS app design](http://clintberry.com/2013/modular-angularjs-application-design/)
 * [Loading AngularJS Components With RequireJS After Application Bootstrap](http://www.bennadel.com/blog/2554-Loading-AngularJS-Components-With-RequireJS-After-Application-Bootstrap.htm)
+* [AngularJS best practices: Refactoring existing code to Angular](http://codeutopia.net/blog/2013/12/27/angularjs-best-practices-refactoring-existing-code-to-angular/)
+
 
 ##UI & Tools
 * [AngularJS Cheat Sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
@@ -117,3 +119,10 @@ This is a collection of free resources for learning AngularJS, welcomed all cont
 * [ng-conf (Salt lake city, Utah)](http://ng-conf.org/)
 * [AngularJs Day (Italien, at Ancona, Italy)](http://angularjsday.it/)
 
+
+
+###TODO
+* Add test category
+* Add Controller tutorial
+* Add Directive tutorial
+* Add Service tutorial
