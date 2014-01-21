@@ -208,13 +208,13 @@ ul, ol, dl {
   top: 20px;
   right: 20px;
   z-index: 100;
+  display: inline-block;
   margin-top: 10px;
   width: 40px;
   height: 48px;
   border: none;
   background: none;
   cursor: pointer;
-  display: inline-block;
 }
 
 .burger-menu span {
@@ -275,6 +275,7 @@ ul, ol, dl {
   top: 0;
   left: -100%;
   z-index: 50;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 80px;
   width: calc(100% - 80px);
@@ -289,8 +290,8 @@ ul, ol, dl {
 }
 
 .main-nav ul {
-  height: 90%;
   overflow-y: auto;
+  height: 90%;
 }
 
 .main-nav li {
@@ -407,14 +408,14 @@ Media Queries - mobile first approach
     position: fixed;
     top: 0;
     left: 0;
+    padding: 20px 10% 10px 10%;
     padding-top: 0;
     width: 100%;
-    padding: 20px 10% 10px 10%;
     height: auto;
     background: none;
+    background-color: #fffffa;
     box-shadow: none;
     text-align: center;
-    background-color: #fffffa;
   }
   .main-nav li {
     display: inline-block;
@@ -433,8 +434,8 @@ Media Queries - mobile first approach
   }
   .main-nav a {
     display: inline-block;
-    border: none;
     padding: 5px 0;
+    border: none;
   }
   .burger-menu {
     display: none;
