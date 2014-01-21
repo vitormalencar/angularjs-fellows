@@ -27,7 +27,7 @@ Website is here:
 * [An introduction to AngularJS](http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs/)
 * [How to get started (7 steps series)](http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html)
 
-##Videos
+##Video
 * [Egghead.io](http://egghead.io/)
 * [AngularJS Youtube Channel](https://www.youtube.com/angularjs)
 * [John Lindquist's Youtube Channel](https://www.youtube.com/user/johnlindquist)
@@ -59,7 +59,7 @@ Website is here:
 * [Todd Motto](https://twitter.com/toddmotto)
 * [AngularJS Google+](https://plus.google.com/+AngularJS/posts)
 
-##Blogs, Tutorials & News
+##Blog & News
 * [AngularJS offical blog](http://blog.angularjs.org/)
 * [AngularJS Mailing list](https://groups.google.com/forum/#!forum/angular)
 * [AngularJS Daily](http://www.angularjsdaily.com/)
@@ -74,7 +74,7 @@ Website is here:
 * [Revolunet blog](http://blog.revolunet.com/)
 * [Jim Hoskins](http://jimhoskins.com/blog/index.html)
 
-##Workflows & Structure
+##Workflow & Structure
 * [Frontend Workflows with Grunt and Angular JS (Video)](http://www.youtube.com/watch?v=fSAgFxjFSqY)
 * [The right way of coding AngularJS: How to organize a regular WebApp. Basic Example](http://www.blogeek.com.ar/2013/03/23/the-right-way-of-coding-angularjs-how-to-organize-a-regular-webapp/)
 * [Kickstart Your AngularJS Development with Yeoman, Grunt and Bower](http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/)
@@ -89,14 +89,22 @@ Website is here:
 * [AngularJS best practices: Refactoring existing code to Angular](http://codeutopia.net/blog/2013/12/27/angularjs-best-practices-refactoring-existing-code-to-angular/)
 
 
-##UI & Tools
+##UI & Tool
 * [AngularJS Cheat Sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
 * [AngularUI](http://angular-ui.github.io/)
 * [UI Bootstrap](http://angular-ui.github.io/bootstrap/)
 * [AngularJS Batarang (AngularJS WebInspector Extension for Chrome)](https://github.com/angular/angularjs-batarang)
 * [Angular Kendo UI](http://kendo-labs.github.io/angular-kendo/#/)
 
-##Sample Apps
+##Animation
+* [AngularJS NgAnimate](http://www.nganimate.org/)
+* [Animation in AngularJS](http://www.yearofmoo.com/2013/04/animation-in-angularjs.html)
+* [Get Moving with Angular 1.2 Animation and Animate.css](http://www.divshot.com/blog/tips-and-tricks/angular-1-2-and-animate-css/)
+
+##WebGL
+* [AngularJS WebGL Directive](http://winkervsbecks.github.io/angularWebglDirective/)
+
+##Sample App
 * [AngularJS CRUD application demo](https://github.com/angular-app/angular-app)
 * [JSFiddle Examples](http://todomvc.com/architecture-examples/angularjs/#/)
 * [TodoMVC + AngularJS](http://todomvc.com/architecture-examples/angularjs/#/)
@@ -115,7 +123,7 @@ Website is here:
 * [Localizing Your AngularJS Apps](http://codingsmackdown.tv/blog/2013/04/23/localizing-your-angularjs-apps-update/)
 * [AngularJS and i18n](https://coderwall.com/p/uyrtpq)
 
-##Conferences
+##Conference
 * [ng-conf (Salt lake city, Utah)](http://ng-conf.org/)
 * [AngularJs Day (Italien, at Ancona, Italy)](http://angularjsday.it/)
 
