@@ -119,6 +119,14 @@ Website is here:
 * [Sample Mobile Application with AngularJS](http://coenraets.org/blog/2013/11/sample-mobile-application-with-angularjs/)
 * [The Definitive Guide to Angular on Mobile](http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/angular-on-mobile.html)
 
+##Test
+* [AngularJS: Tests](http://dailyjs.com/2013/05/16/angularjs-5/)
+* [Testing Strategies for Angular JS (Video)](http://www.youtube.com/watch?v=UYVcY9EJcRs)
+* [Getting started unit-testing Angular](http://www.ng-newsletter.com/advent2013/#!/day/19)
+* [Karma Runner](http://karma-runner.github.io/0.10/index.html)
+* [Karma: AngularJS Automated Test Runner](https://blogs.oracle.com/geertjan/entry/karma_angularjs_with_netbeans_ide)
+* [Testing AngularJS directive templates with Jasmine and Karma](http://daginge.com/technology/2013/12/14/testing-angular-templates-with-jasmine-and-karma/)
+
 ##Localization
 * [Localizing Your AngularJS Apps](http://codingsmackdown.tv/blog/2013/04/23/localizing-your-angularjs-apps-update/)
 * [AngularJS and i18n](https://coderwall.com/p/uyrtpq)
