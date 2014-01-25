@@ -26,6 +26,10 @@ Website is here:
 * [AngularJS for jQuery Developers](http://www.artandlogic.com/blog/2013/03/angularjs-for-jquery-developers/)
 * [An introduction to AngularJS](http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs/)
 * [How to get started (7 steps series)](http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html)
+* [Fun with AngularJS!](http://devgirl.org/2013/03/21/fun-with-angularjs/)
+* [5 reasons to use AngularJS in the corporate app world](http://oscarvillarreal.com/2013/05/07/5-reasons-to-use-angularjs-in-the-corporate-app-world/)
+* [More AngularJS Magic to Supercharge your Webapp](http://www.yearofmoo.com/2012/10/more-angularjs-magic-to-supercharge-your-webapp.html)
+
 
 ##Video
 * [Egghead.io](http://egghead.io/)
@@ -38,6 +42,9 @@ Website is here:
 * [Michael Calkins's Youtube Channel](http://www.youtube.com/playlist?list=PLfLN8Jd9-DVEQ0-PEnVeeUYyO0yg28mhN)
 * [Neosavvy's Angular & Jasmine Screencast Series](http://www.youtube.com/channel/UCdaEMffiYgTf_E7uTMxM4og/videos)
 * [ng-conf 2014's Youtube Channel](http://www.youtube.com/user/ngconfvideos?feature=watch)
+
+##Courses
+* [ng-tutorial - Interactive AngularJS tutorials](http://ng-tutorial.mgechev.com/)
 
 ##Cool People
 * [AngularJS - Offical twitter](https://twitter.com/angularjs)
@@ -87,6 +94,7 @@ Website is here:
 * [Modular AngularJS app design](http://clintberry.com/2013/modular-angularjs-application-design/)
 * [Loading AngularJS Components With RequireJS After Application Bootstrap](http://www.bennadel.com/blog/2554-Loading-AngularJS-Components-With-RequireJS-After-Application-Bootstrap.htm)
 * [AngularJS best practices: Refactoring existing code to Angular](http://codeutopia.net/blog/2013/12/27/angularjs-best-practices-refactoring-existing-code-to-angular/)
+* [Building large apps with AngularJS](http://pseudobry.com/building-large-apps-with-angularjs.html)
 
 
 ##UI & Tool
@@ -95,6 +103,16 @@ Website is here:
 * [UI Bootstrap](http://angular-ui.github.io/bootstrap/)
 * [AngularJS Batarang (AngularJS WebInspector Extension for Chrome)](https://github.com/angular/angularjs-batarang)
 * [Angular Kendo UI](http://kendo-labs.github.io/angular-kendo/#/)
+* [AngularJS with Firebase](https://www.firebase.com/quickstart/angularjs.html)
+* [Improving End User Experience with AngularJS](http://blog.thousandeyes.com/improving-end-user-experience-with-angularjs/)
+
+
+##Controller
+* [AngularJS Controller Tutorial With Example](http://viralpatel.net/blogs/angularjs-controller-tutorial/)
+
+
+##Local storage
+* [HTML5 local storage with Angular JS](http://www.amitavroy.com/justread/content/articles/html5-local-storage-angular-js)
 
 ##Animation
 * [AngularJS NgAnimate](http://www.nganimate.org/)
@@ -109,6 +127,10 @@ Website is here:
 * [JSFiddle Examples](http://todomvc.com/architecture-examples/angularjs/#/)
 * [TodoMVC + AngularJS](http://todomvc.com/architecture-examples/angularjs/#/)
 * [Chaise Blog: building a diary with Angular.js, Grunt.js and Cloudant](https://cloudant.com/blog/chaise-blog-building-a-diary-with-angular-js-grunt-js-and-cloudant/)
+* [A Shopping Cart Application Built with AngularJS](http://www.codeproject.com/Articles/576246/A-Shopping-Cart-Application-Built-with-AngularJS)
+* [Build a feed reader with the Google feed API and AngularJS](ttp://www.codeproject.com/Articles/576246/A-Shopping-Cart-Application-Built-with-AngularJS)
+* [Learning AngularJS by Example – The Customer Manager Application](http://weblogs.asp.net/dwahlin/archive/2013/10/25/learning-angularjs-by-example-the-customer-manager-application.aspx)
+
 
 ##Mobile
 * [Quick Start Guide to PhoneGap+AngularJS](http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/)
@@ -121,6 +143,7 @@ Website is here:
 
 ##Test
 * [AngularJS: Tests](http://dailyjs.com/2013/05/16/angularjs-5/)
+* [Neosavvy's Angular & Jasmine Screencast Series](http://www.youtube.com/channel/UCdaEMffiYgTf_E7uTMxM4og/videos)
 * [Testing Strategies for Angular JS (Video)](http://www.youtube.com/watch?v=UYVcY9EJcRs)
 * [Getting started unit-testing Angular](http://www.ng-newsletter.com/advent2013/#!/day/19)
 * [Karma Runner](http://karma-runner.github.io/0.10/index.html)
@@ -130,6 +153,7 @@ Website is here:
 ##Localization
 * [Localizing Your AngularJS Apps](http://codingsmackdown.tv/blog/2013/04/23/localizing-your-angularjs-apps-update/)
 * [AngularJS and i18n](https://coderwall.com/p/uyrtpq)
+* [AngularJS Resource Localization Service](https://github.com/lavinjj/angularjs-localizationservice)
 
 ##Conference
 * [ng-conf (Salt lake city, Utah)](http://ng-conf.org/)
@@ -138,7 +162,6 @@ Website is here:
 
 
 ###TODO
-* Add test category
 * Add Controller tutorial
 * Add Directive tutorial
 * Add Service tutorial
