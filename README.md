@@ -107,6 +107,7 @@ Website is here:
 * [Angular Kendo UI](http://kendo-labs.github.io/angular-kendo/#/)
 * [AngularJS with Firebase](https://www.firebase.com/quickstart/angularjs.html)
 * [Improving End User Experience with AngularJS](http://blog.thousandeyes.com/improving-end-user-experience-with-angularjs/)
+* [Angular Foundation](http://madmimi.github.io/angular-foundation/)
 
 
 ##Controller
