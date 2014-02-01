@@ -5,6 +5,7 @@ This is a collection of free resources for learning AngularJS, welcomed all cont
 
 Website is here:
 [http://tachun.github.io/angularjs-fellows/](http://tachun.github.io/angularjs-fellows/)
+[ANGULARJS FELLOWS](http://tachun.github.io/angularjs-fellows/images/screenshot.png)
 
 
 ##Getting Started
@@ -82,6 +83,7 @@ Website is here:
 * [The Blog of Ben Nadel](http://www.bennadel.com/)
 * [Revolunet blog](http://blog.revolunet.com/)
 * [Jim Hoskins](http://jimhoskins.com/blog/index.html)
+* [ng-learn.org](http://ng-learn.org/)
 
 ##Workflow & Structure
 * [Frontend Workflows with Grunt and Angular JS (Video)](http://www.youtube.com/watch?v=fSAgFxjFSqY)
