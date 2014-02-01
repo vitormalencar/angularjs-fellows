@@ -5,7 +5,7 @@ This is a collection of free resources for learning AngularJS, welcomed all cont
 
 Website is here:
 [http://tachun.github.io/angularjs-fellows/](http://tachun.github.io/angularjs-fellows/)
-[ANGULARJS FELLOWS](http://tachun.github.io/angularjs-fellows/images/screenshot.png)
+![ANGULARJS FELLOWS](http://tachun.github.io/angularjs-fellows/images/screenshot.png)
 
 
 ##Getting Started
