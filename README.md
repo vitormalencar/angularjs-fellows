@@ -75,6 +75,7 @@ Website is here:
 * [AngularJS Daily](http://www.angularjsdaily.com/)
 * [AngularJS Weekly](http://paper.li/RaminZamani/1366929635)
 * [ng-newsletter](http://www.ng-newsletter.com/)
+* [angular-js.in] (http://angular-js.in/)
 * [The AngularJS Magazine](https://flipboard.com/section/the-angularjs-magazine-bbIMWS)
 * [Year of Moo](http://www.yearofmoo.com/)
 * [One Hungry Mind](http://onehungrymind.com/)
